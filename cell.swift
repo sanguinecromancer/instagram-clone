@@ -8,24 +8,9 @@
 
 import UIKit
 
-class cell: UITableViewCell {
-
-    
-    
-    @IBOutlet weak var postedImage: UIImageView!
-    
-    @IBOutlet weak var username: UILabel!
-    
-    
-    
+class cell: UITableViewCell { 
+    @IBOutlet weak var postedImage: UIImageView!    
+    @IBOutlet weak var username: UILabel!   
     @IBOutlet weak var message: UILabel!
     
-    
-    
-    
-    
-    
-    
-    
-
 }
